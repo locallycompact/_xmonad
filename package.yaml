@@ -1,0 +1,26 @@
+name:                lc-xmonad
+version:             0.1.0.0
+license:             MIT
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2021 Daniel Firth"
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- polysemy
+- shh
+- text
+- xmonad
+- xmonad-contrib
+- xmonad-extras
+- X11
+
+executables:
+  xmonad-x86_64-linux:
+    main:                Main.hs
+    source-dirs:         .
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
