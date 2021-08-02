@@ -8,6 +8,8 @@ copyright:           "2021 Daniel Firth"
 dependencies:
 - base >= 4.7 && < 5
 - containers
+- formatting
+- path
 - polysemy
 - shh
 - text

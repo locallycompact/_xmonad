@@ -9,7 +9,6 @@ extra-deps:
   - composite-base
 - git: https://gitlab.com/homotopic-tech/techlab
   commit: 88f77113eefb038ae33d1db353a8fbad704a67ad
-- exceptions-0.10.4
 - shh-0.7.1.4
 - type-errors-pretty-0.0.1.1
 - git: https://github.com/xmonad/xmonad

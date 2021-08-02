@@ -25,6 +25,8 @@ executable xmonad-x86_64-linux
       X11
     , base >=4.7 && <5
     , containers
+    , formatting
+    , path
     , polysemy
     , shh
     , text
